@@ -1,9 +1,10 @@
 # OConnorLab
 Combinatorial selection in environmental hosts drives the evolution of a human pathogen
-Jason M. Park1,2, Soma Ghosh1, Tamara J. O’Connor1,*
+
+Jason M. Park1, Soma Ghosh1, Tamara J. O’Connor1,*
 
 1Department of Biological Chemistry, The Johns Hopkins University School of Medicine, Baltimore, Maryland, USA
-2Current Address: Veterinary Microbiology and Pathology, Washington State University, Pullman, Washington, USA 
+*Corresponding author
 
 This README file provides instructions to execute the custom script for statistical analysis of the TnSeq data. The script uses fitness ratios, obtained after processing TnSeq sequencing data using analysis tools provided by the TUCF through Galaxy1 that are published as the Tn-seq data analysis tool MAGenTA2. Through Galaxy or MAGenTA, the raw reads are processed and a fitness ratio (output reads/input reads) is reported for each insertion site. The fitness tables obtained include gene annotations and fitness ratios for each chromosomal transposon insertion site: these are used by the TnseqSA script for subsequent analyses, based on an established set of statistical analyses developed by Chris Sassetti, Dana Boyd and Eric Rubin3-5. Details of the Galaxy output file can be found in McCoy KM, et. al., 2017. Please note that the TnseqSA script is generic and can be used to analyze fitness ratios obtained from any analysis software as long as the gene annotations and fitness ratios are generated for each insertion site and the formatting is consistent. The fitness tables are available in the folder designated ‘DataSets’ and can be used as example files.
 
