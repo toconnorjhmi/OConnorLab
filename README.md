@@ -1,4 +1,4 @@
-# OConnorLab
+# TnseqSA
 Combinatorial selection in environmental hosts drives the evolution of a human pathogen
 
 Jason M. Park1, Soma Ghosh1, Tamara J. O’Connor1,*
